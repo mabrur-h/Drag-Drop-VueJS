@@ -1,0 +1,130 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.card-wrapper {
+    justify-content: space-between;
+    margin-top: 2rem !important;
+}
+
+.card {
+    width: 23%;
+}
+
+.tasks-title-wrapper {
+    box-shadow: 0 0 10px 2px #c8c8c8;
+}
+
+.tasks-subtitle {
+    padding: 10px 20px;
+    border: 1px solid #c8c8c8;
+    color: #868686;
+}
+
+
+.card-element {
+    margin-top: 15px;
+    border-radius: 0 !important;
+}
+
+.tasks-element-title {
+    color: #1e1e1e;
+}
+
+.tasks-title {
+    padding: 10px 20px;
+    font-size: large;
+    color: white;
+    text-transform: uppercase;
+}
+
+.in-progress-bg {
+    background-color: #d9bb48 !important;
+}
+
+.reviews-bg {
+    background-color: #7835ca !important;
+}
+
+.approved-bg {
+    background-color: #1e922a !important;
+
+}
+
+.tasks-bg {
+    background-color: #01a4d9 !important;
+}
+
+.add-button {
+    background-color: #1e1e1e20;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.add-button:focus {
+    box-shadow: 0 0 10px 0 #1e1e1e58;
+    transition: .3s;
+}
+
+.add-button:hover {
+    box-shadow: 0 0 10px 0 #1e1e1e58;
+    transition: .3s;
+}
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #1e1e1e50;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+
+    width: 100%;
+    max-width: 400px;
+    background-color: #FFF;
+    border-radius: 16px;
+
+    padding: 25px;
+}
+
+.modal h1 {
+    color: #1e1e1e;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.text-input {
+    background-color: #1e1e1e20;
+    margin: 10px 0;
+    width: 90%;
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #cccccc;
+}
+
+.btn-add {
+    background-color: #01a4d9;
+}
+
+.btn-cancel {
+    background-color: #ca1818;
+}
